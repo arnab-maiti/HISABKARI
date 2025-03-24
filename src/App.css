@@ -1,0 +1,75 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
+}
+.main{
+  height: 70vh;
+  width: 30vw;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+  border-radius: 10px;
+padding: 5px;
+}
+.span{
+  height: 30%;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  font-size: 2em;
+  color: white;
+}
+.box{
+  height: 70%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.9);
+  display: flex;
+}
+.num{
+  height: 100%;
+  width: 75%; 
+  border-radius: 10px;
+  padding-top: 6px;
+}
+.icon{
+  height: 100%;
+  width: 25%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+#child{
+  height: 23%;
+  width: 32%;
+  margin: 2px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0093E9;
+  color: white;
+}
+#ichild{
+  border-radius: 10px;
+  border: none;
+  height: 15%;
+  margin: 2px;
+  background: transparent;
+  color: #003d60;
+}
+button{
+  font-size: 1.3em;
+}
